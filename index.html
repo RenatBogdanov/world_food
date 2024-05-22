@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Кухни народов</title>
+
+	<script type="text/javascript">
+	  writeRandomQuote = function () {
+	    var quotes = new Array();
+	    quotes[0] = "На голодный желудок русский человек ничего делать и думать не хочет, а на сытый — не может.";
+	    quotes[1] = "Животных, которых мало, занесли в Красную книгу, а которых много — в Книгу о вкусной и здоровой пище.";
+	    quotes[2] = "Даже лучшая кулинарная книга не заменит самого скромного обеда.";
+	    quotes[3] = "Нет любви более искренней, чем любовь к еде.";
+	    quotes[4] = "Чтобы хорошо готовить, недостаточно любить покушать. Надо полюбить сам процесс, вкладывать в каждую его минуту любовь. Любовь — это основа всей жизни, в том числе и кулинарии.";
+	    quotes[5] = "Голод – наилучшая приправа к еде.";
+	    quotes[6] = "Что такое патриотизм, как не любовь к еде, которую ел в детстве?";
+	      var rand = Math.floor(Math.random()*quotes.length);
+	    document.write(quotes[rand]);
+	  }
+
+	</script>
+
+
+</head>
+<body>
+
+	<div class="menu">
+		
+		<div class="menu_panel">
+
+			<a href="index.html" class="title_href">
+			<div class="menu_title">
+				<h1>Кухни народов мира</h1>
+			</div>
+			</a>
+
+			<div class="menu_list">
+				<ul>
+					<a>ㅤ</a>
+					<li><a>Грузинская кухня</a>
+						<ul>
+							<li><a href="food_1.html">Хинкали</a></li>
+						</ul>
+					</li>
+
+					<li>Шотландская кухня
+						<ul>
+							<li><a href="food_5.html">Хаггис</a></li>
+						</ul>
+					</li>
+
+					<li>Индийская кухня
+						<ul>
+							<li><a href="food_3.html">Масала Доса</a></li>
+						</ul>
+					</li>
+
+					<li>Французская кухня
+						<ul>
+							<li><a href="food_4.html">Круассан</a></li>
+						</ul>
+					</li>
+
+					<li>Словацкая кухня
+						<ul>
+							<li><a href="food_2.html">Жликрофи</a></li>
+						</ul>
+					</li>
+
+					<li>Немецкая кухня
+						<ul>
+							<li><a href="food_6.html">Кварккухен</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+
+			<div class="quote">
+				<h3>Цитата:</h3>
+				<a class=""><script type="text/javascript">writeRandomQuote();</script></a>
+			</div>
+
+			<div class="ad">
+				<a href="advertisment.html" target="_blank"><img src="images/ad.jpg" class="ad_image"></a>
+			</div>
+
+			<div class="menu_footer">
+				<a>ㅤАвтор: Богданов Ренат</a>
+				<br>
+				<a>ㅤПочта: zeloniyosminog@gmail.com</a>
+				<br>
+			</div>
+
+			<div class="map_href">
+					<a href="" style="text-decoration: none;">Карта сайта</a>
+			</div>
+			
+
+		</div>
+		
+
+	</div>
+
+	<div class="page">
+
+		<a href="food_1.html">
+			<div class="food_card">
+				<img src="images/1.jpeg" class="food_picture">
+				<a class="food_name">Хинкали</a>
+				<br>
+				<a class="food_country">Грузия</a>
+			</div>
+		</a>
+
+		<a href="food_2.html">
+			<div class="food_card">
+				<img src="images/2.jpg" class="food_picture">
+				<a class="food_name">Жликрофи</a>
+				<br>
+				<a class="food_country">Словения</a>
+			</div>
+		</a>
+
+		<a href="food_3.html">
+			<div class="food_card">
+				<img src="images/3.jpg" class="food_picture">
+				<a class="food_name">Масала Доса</a>
+				<br>
+				<a class="food_country">Индия</a>
+			</div>
+		</a>
+
+		<a href="food_4.html">
+			<div class="food_card">
+				<img src="images/4.jpg" class="food_picture">
+				<a class="food_name">Круассан</a>
+				<br>
+				<a class="food_country">Франция</a>
+			</div>
+		</a>
+
+		<a href="food_5.html">
+			<div class="food_card">
+				<img src="images/5.jpg" class="food_picture">
+				<a class="food_name">Хаггис</a>
+				<br>
+				<a class="food_country">Шотландия</a>
+			</div>
+		</a>
+		
+		<a href="food_6.html">
+			<div class="food_card">
+				<img src="images/6.jpg" class="food_picture">
+				<a class="food_name">Кварккухен</a>
+				<br>
+				<a class="food_country">Германия</a>
+			</div>
+		</a>
+
+		
+	</div>
+
+</body>
+</html>
